@@ -1,0 +1,174 @@
+body {
+  background: #EEEEEE;
+  color: #222831;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #31363F;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #76ABAE;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: #EEEEEE;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #76ABAE;
+  color: #222831;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px 80px;
+  background: #222831;
+  color: #EEEEEE;
+  border-radius: 0 0 40px 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #76ABAE;
+}
+
+.hero p {
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #76ABAE;
+  color: #222831;
+  font-weight: bold;
+  border-radius: 35px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.08) translateY(-3px);
+  background: #31363F;
+  color: #EEEEEE;
+}
+
+/* Features Section */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+  padding: 60px 50px;
+}
+
+.card {
+  background: #76ABAE;
+  color: #EEEEEE;
+  padding: 35px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  background: #222831;
+}
+
+/* About Section */
+.about {
+  padding: 70px 50px;
+  background: #EEEEEE;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #31363F;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #31363F;
+  color: #EEEEEE;
+  padding: 70px 50px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+  color: #76ABAE;
+}
+
+.testimonial-card {
+  background: #222831;
+  padding: 25px;
+  margin: 15px auto;
+  border-radius: 15px;
+  max-width: 600px;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+  margin-top: 60px;
+  background: #31363F;
+  border-top: 2px solid #76ABAE;
+  letter-spacing: 1px;
+  color: #EEEEEE;
+}
+
+footer a {
+  color: #76ABAE;
+  text-decoration: none;
+}
+
